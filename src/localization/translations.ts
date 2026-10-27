@@ -80,7 +80,15 @@ export const uk = {
     'registration.success.copied': 'Скопійовано в буфер обміну.',
     'registration.success.idUnavailable':
         'Не вдалося прочитати ID з токена. Зверніться до підтримки.',
-
+    'chats.title': 'Чати',
+    'chats.connection.disconnected': 'Немає з’єднання',
+    'chats.connection.connecting': 'З’єднання встановлюється',
+    'chats.connection.connected': 'З’єднано',
+    'chats.newChat': 'Створити чат',
+    'chats.newChatLater': 'Створення чату буде доступне пізніше.',
+    'chats.deleteTitle': 'Видалити чат?',
+    'chats.deleteWarning': 'Чат і всі повідомлення буде видалено без можливості відновлення. У співрозмовника чат і повідомлення також видаляться автоматично під час наступного підключення до мережі.',
+    'chats.delete': 'Видалити',
 
 } as const;
 
@@ -170,7 +178,15 @@ const en: Record<TranslationKey, string> = {
     'registration.success.copied': 'Copied to clipboard.',
     'registration.success.idUnavailable':
         'Could not read the ID from the token. Please contact support.',
-
+    'chats.title': 'Chats',
+    'chats.connection.disconnected': 'Disconnected',
+    'chats.connection.connecting': 'Connecting',
+    'chats.connection.connected': 'Connected',
+    'chats.newChat': 'Create chat',
+    'chats.newChatLater': 'Chat creation will be available later.',
+    'chats.deleteTitle': 'Delete chat?',
+    'chats.deleteWarning': 'The chat and all messages will be deleted permanently. The chat and messages will also be automatically deleted for the other person the next time they connect to the network.',
+    'chats.delete': 'Delete',
 
 };
 
